@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        figure{
+            display: inline-block;
+            text-align: center;
+        }
+
+        img{
+            box-shadow: 20px 20px 30px red;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Random picture</h1>
-    <figure>
+    <!-- Ejemplo de estilo in-line
+    La propiedad in-line tiene prioridad sobre el style 
+    -->
+    <figure style="margin-left: 80;">
         <img src="https://picsum.photos/id/1/200/200" alt="sujeto" xx="">
         <figcaption>John</figcaption>
     </figure>
     <figure>
-        <img src="https://picsum.photos/id/2/200/200" alt="sujeto" xx="">
+        <img src="https://picsum.photos/id/2/200/200" alt="sujeto" yy="">
         <figcaption>Jane</figcaption>
     </figure>
 </body>
